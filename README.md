@@ -46,3 +46,14 @@ everything, and will format it and make it nice.
 On the client side, this is what the project looks like so far, it has the aesthetic look of a finished up,
 all that is left now is to add the functionality to the calculator to let the buttons do something now
 ![img_1.png](img_1.png)
+
+### Development Part 3 (App Functionality)
+This section will cover the manipulation of the JavaScript code in App.js to add levels of functionality to
+the app, making the buttons for the digits and operators actually do something.
+1. Created multiple arrays for calculating and storing the results, as well as holding the char value for each operator
+2. Wrote an arrow function called updateCalc which will update the calculations from before
+3. For each button, added the updateCalc() function with the attribute of OnClick() which will added it when that button is clicked
+4. If statement added to updateCalc() function, if an operator is clicked before values are put in, nothing happens
+   1. If the last value that was input was an operator, then operators cannot be clicked again, preventing two operators from being in the same expression (++++, ----, +*/-)
+5. Added calculate function to calculate the expression typed in by user
+6. Added deleteLast function to delete the last value input by the user
