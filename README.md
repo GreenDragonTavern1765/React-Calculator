@@ -35,3 +35,14 @@ by the user, as well as setting up the classes that will be manipulated using th
 On the client side, this is what the project looks like so far, it lacks formatting that will be added in
 as the development phase proceeds.
 ![img.png](img.png)
+
+### Development Part 2 (CSS formatting)
+This section will cover the CSS formatting, this will take the code written from part 1, the buttons, the classes
+everything, and will format it and make it nice.
+1. Created 4 css variables, used to designate certain colors used throughout formatting
+2. Formatted the classes and centered them to make the calculator in the middle of the screen
+3. Added background color and formatting to each of the types of buttons (classes)
+
+On the client side, this is what the project looks like so far, it has the aesthetic look of a finished up,
+all that is left now is to add the functionality to the calculator to let the buttons do something now
+![img_1.png](img_1.png)
